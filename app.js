@@ -31,14 +31,14 @@ winningScoreSelect.addEventListener('change', function() {
     resetGame();
 });
 
-// // buttons disabled until max score is selected
-// if (winningScoreSelect.value === 'placeholder') {
-//     p1Button.disabled = true;
-//     p2Button.disabled = true;
-// } else {
-//     p1Button.disabled = false;
-//     p2Button.disabled = false;
-// }
+// buttons disabled until max score is selected
+if (winningScoreSelect.value === 'placeholder') {
+    p1Button.disabled = true;
+    p2Button.disabled = true;
+} else {
+    p1Button.disabled = false;
+    p2Button.disabled = false;
+}
 
 // score update function
 function updateScores(winner, loser) {
