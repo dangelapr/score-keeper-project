@@ -18,8 +18,10 @@ const reset = document.querySelector('#reset');
 // max score selector
 const winningScoreSelect = document.querySelector('#maxPoints');
 
+// start selector at placeholder
+winningScoreSelect.value = 'placeholder';
+
 // initial variables
-let winningScoreSelect,value = 'placeholder';
 let winningScore = 0;
 let isGameOver = false;
 
