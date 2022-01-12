@@ -1,5 +1,10 @@
+// reset on page load
+window.onload = function() {
+    resetGame();
+};
+
 // player 1 object
- const p1 = {
+const p1 = {
     display: document.querySelector('#p1Display'),
     button: document.querySelector('#p1Button'),
     score: 0,
